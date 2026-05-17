@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and private data
+.env
+.env.*
+!.env.example
+data/service_account.json
+*service_account*.json
+
+# Personal/generated recognition data
+EncodedFile.p
+dataset/
+output/
+Training/
+
+# Local databases and reports
+*.db
+*.sqlite
+*.sqlite3
+*.pdf
+
+# Archives and videos
+*.rar
+*.zip
+*.mp4
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
