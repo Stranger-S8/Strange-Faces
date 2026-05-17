@@ -33,3 +33,11 @@ Training/
 Thumbs.db
 .idea/
 .vscode/
+
+# Secrets (do not commit)
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
